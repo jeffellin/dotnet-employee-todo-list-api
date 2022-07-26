@@ -1,0 +1,8 @@
+site_name: 'dotnet todos api'
+
+nav:
+  - The Component: index.md
+  - Updating the API: updating-api.md
+
+plugins:
+  - techdocs-core
