@@ -18,6 +18,9 @@ spec:
       title: Employee TODO service
       description: A simple employee todo list
       version: v1
+    servers: 
+      - url: https://dotnet-todos-api.dotnet-todos-test.appref2.appref.end2end.link/
+        description: Sandbox server (uses test data)
     paths:
       "/api/Employees":
         get:
