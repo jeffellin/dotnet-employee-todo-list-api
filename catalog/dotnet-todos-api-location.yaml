@@ -5,5 +5,5 @@ metadata:
   description: Catalog jeff for DotNet Todos App
 spec:
   targets:
-    - ./dotnet-todos-api/dotnet-todos-api.yaml
+    - ./dotnet-todos-api/dotnet-todos-component.yaml
     - ./dotnet-todos-api/dotnet-todos-api.yaml
