@@ -2,15 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: dotnet-todos-api-catalog-info
-  description: Catalog for DotNet Todos App
-  annotations:
-    'backstage.io/techdocs-ref': dir:.
+  description: Catalog jeff for DotNet Todos App
 spec:
   targets:
-    - ./users-and-groups.yaml
-    - ./domains.yaml
-    - ./systems/animal-rescue.yaml
-    - ./systems/canary/canary.yaml
-    - ./systems/dotnet-todos.yaml
-    - ./systems/spring-petclinic.yaml
-    - ./systems/spring-sensors.yaml
+    - ./dotnet-todos-api/dotnet-todos-api.yaml
+    - ./dotnet-todos-api/dotnet-todos-api.yaml
