@@ -1,7 +1,6 @@
 site_name: 'dotnet todos api'
-
+#! don't need index.html here
 nav:
-  - The Component: index.md
   - Updating the API: updating-api.md
 
 plugins:
