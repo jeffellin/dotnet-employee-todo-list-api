@@ -4,7 +4,8 @@ metadata:
   name: dotnet-todos-api
   description: The API for dotnet-todos api
   links:
-    - url: https://dotnet-todos-api.dotnet-todos-test.appref2.appref.end2end.link/swagger/index.html
+    - url: https://dotnet-todos-api.dotnet-todos-test.two.appref.end2end.link/swagger/index.html
+    ne
       title: DotNet API Definition
       icon: docs
 spec:
@@ -19,7 +20,7 @@ spec:
       description: A simple employee todo list
       version: v1
     servers: 
-      - url: https://dotnet-todos-api.dotnet-todos-test.appref2.appref.end2end.link/
+      - url: https://dotnet-todos-api.dotnet-todos-test.two.appref.end2end.link/
         description: Sandbox server (uses test data)
     paths:
       "/api/Employees":
