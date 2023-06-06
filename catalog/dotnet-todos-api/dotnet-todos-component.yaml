@@ -7,7 +7,6 @@ metadata:
     - microservice
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=dotnet-todos-api'
-    'backstage.io/techdocs-ref': dir:.
 spec:
   type: service
   providesApis:
