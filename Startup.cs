@@ -48,7 +48,6 @@ namespace employee_todo_list_api
                     builder =>
                     builder.AllowAnyOrigin()
                     .AllowAnyMethod()
-                    .WithExposedHeaders("content-disposition")
                     .AllowAnyHeader()
                     .SetPreflightMaxAge(TimeSpan.FromSeconds(3600)));
             });
