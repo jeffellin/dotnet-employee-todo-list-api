@@ -6,4 +6,3 @@ metadata:
 spec:
   targets:
     - ./dotnet-todos-api/dotnet-todos-component.yaml
-    - ./dotnet-todos-api/dotnet-todos-api.yaml
